@@ -12,11 +12,12 @@ python kabanchik.py
 # OR 
 ```
 git clone https://github.com/orybkin/kabanchik.git
-conda create -n kabanchik python=3.11
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -b
 source ~/miniconda3/bin/activate
 conda create -n kabanchik python=3.11
+source activate 
 cd kabanchik
 pip install selenium bs4
 ```
+or something like that idk
